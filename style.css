@@ -40,8 +40,10 @@ body {
 .headerBoxOne {
 	height: 15vh;
 	width: 40vw;
-	display: flex;
-	
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	border-color: black;
 	border-style: solid;
 
@@ -70,11 +72,77 @@ body {
 }
 
 .contentBoxOne {
+	display: inline-grid;
+	grid-template-columns: 20vw 20vw;
+	grid-gap: 2vh 3vw;
+	justify-content: center;
 	background-color: whitesmoke;
 
 }
 
+.infographBoxOne {
+	border-color: black;
+	border-style: solid;
+	margin-top: 2vh;
+	
+}
+
+.infographBoxTwo {
+	border-color: black;
+	border-style: solid;
+	margin-top: 2vh;
+}
+
+.infographBoxThree {
+	border-color: black;
+	border-style: solid;
+	
+}
+
+.infographBoxFour {
+	border-color: black;
+	border-style: solid;
+}
+
+.infographBoxFive {
+	border-color: black;
+	border-style: solid;
+	margin-bottom: 2vh;
+}
+
+.infographBoxSix {
+	border-color: black;
+	border-style: solid;
+	margin-bottom: 2vh;
+	
+}
+
 .contentBoxTwo {
 	background-color: lightgreen;
+	display: grid;
 
+
+}
+
+.announcementsContainer {
+	border-color: black;
+	border-style: solid;
+}
+
+.announcementsBox {
+	background-color: lightcyan;
+	margin: 2vh;
+	height: 37vh;
+}
+
+.trendingContainer {
+	border-color: black;
+	border-style: solid;
+	min-height: 40vh;
+}
+
+.trendingBox {
+	background-color: lightcyan;
+	margin: 2vh;
+	height: 37vh;
 }
