@@ -1,15 +1,12 @@
 body {
-	padding: 0; margin: 0; 
-	 
-	}
-
+	padding: 0; margin: 0;  
+}
 
 .container {
 	display: inline-grid;
 	height: 100vh;
 	grid-template-columns: 17vw 83vw;
 	grid-template-rows: 15vh
-
 }
 
 .sidebar {
@@ -27,11 +24,8 @@ body {
 	height: 10vh;
 	font-size: 25px;
 	font-weight: bold;
-
-	
-	
-
 }
+
 .header {
 	display: inline-flex;
 	justify-content: safe center;
@@ -45,14 +39,12 @@ body {
 	display:flex;
 	align-items: center;
 	justify-content: space-evenly;
-	
 }
 
 .headerLogo {
 	height: 120px;
 	width: 120px;
-	align-self: flex-start;
-	
+	align-self: flex-start;	
 }
 
 .logoText {
@@ -60,19 +52,14 @@ body {
 	align-self: center;
 	color: #FFFDF4;
 	font-size: 4vh;
-
-
-
 }
+
 .headerBoxTwo {
 
 	display: flex;
 	width: 60vw;
 	height: 15vh;
 	justify-content: flex-end;
-
-	
-
 }
 
 .headerBtns {
@@ -94,7 +81,6 @@ body {
 	grid-column-end: 2;
 	grid-template-columns: 60vw 23vw;
   	grid-template-rows: 85vh
-
 }
 
 .contentBoxOne {
@@ -103,19 +89,13 @@ body {
 	grid-gap: 2vh 3vw;
 	justify-content: center;
 	background-color: #EEEEEE;
-
 }
 
 .contentHeaders {
 	position: fixed;
 	margin-left: 1vw;
 	font-size: 20px;
-	font-weight: bold;
-
-
-	
-
-	
+	font-weight: bold;	
 }
 
 .infographTitles {
@@ -123,14 +103,11 @@ body {
 	align-self: flex-start;
 	margin-bottom: 1vh;
 	font-weight: bold;
-	
-
 }
 
 .infographText {
 	text-align: center;
 	font-family: sans-serif;
-
 }
 
 .infographBoxOne {
@@ -150,7 +127,6 @@ body {
 	height: 20vh;
 	box-shadow: 8px 8px 7px -5px #B8B8B8;
 	background-color: white;
-	
 }
 
 .infographBoxTwo {
@@ -188,9 +164,7 @@ body {
 	border-radius: 15px;
 	height: 20vh;
 	box-shadow: 8px 8px 7px -5px #B8B8B8;
-	background-color: white;
-
-	
+	background-color: white;	
 }
 
 .infographBoxFour {
@@ -246,14 +220,11 @@ body {
 	height: 20vh;
 	box-shadow: 8px 8px 7px -5px #B8B8B8;
 	background-color: white;
-	
 }
 
 .contentBoxTwo {
 	background-color: #EEEEEE;
 	display: grid;
-
-
 }
 
 .announcementsContainer {
@@ -269,8 +240,6 @@ body {
 	align-items: center;
 	border-radius: 10px;
 	box-shadow: 8px 8px 7px -5px #B8B8B8;
-
-
 }
 
 .announcementHeaders {
@@ -279,6 +248,7 @@ body {
 	margin-bottom: 1vh;
 	font-weight: bold;
 }
+
 .announcementOne {
 	height: 33.4%;
 	width: 83%;
@@ -287,8 +257,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-size: 18px;
-
-	
 }
 
 .announcementTwo {
@@ -302,8 +270,6 @@ body {
 	border-color: gray white gray white;
 	border-width: 1px 1px 1px 1px;
 	border-style: solid;
-	
-	
 }
 
 .announcementThree {
@@ -314,11 +280,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: white;
-	font-size: 18px;
-	
+	font-size: 18px;	
 }
-
-
 
 .trendingContainer {
 	min-height: 40vh;
@@ -334,11 +297,11 @@ body {
 	border-radius: 10px;
 	box-shadow: 8px 8px 7px -5px #B8B8B8;
 }
+
 .icons {
 	display: flex;
 	margin: 2vh;
-	width: 15vw;
-	
+	width: 15vw;	
 }
 
 
